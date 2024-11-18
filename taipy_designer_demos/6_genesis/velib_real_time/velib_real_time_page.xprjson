@@ -1,0 +1,674 @@
+{
+	"meta": {
+		"version": "2.992.8836",
+		"fileFormatVersion": "0.3",
+		"date": "2024-11-18T04:55:52.820+01:00",
+		"name": "velib_real_time_page",
+		"description": "",
+		"groupName": "",
+		"tags": [],
+		"schedulerLogOff": true
+	},
+	"data": {
+		"datanodes": []
+	},
+	"libraries": {
+		"pyodideStandard": [],
+		"pyodideMicropip": []
+	},
+	"scaling": {
+		"widthPx": 1024,
+		"heightPx": 688,
+		"scrollWidthPx": 1024,
+		"scrollHeightPx": 688,
+		"widthVw": 80.12519561815337,
+		"heightVh": 72.88135593220339,
+		"scrollWidthVw": 80.12519561815337,
+		"scrollHeightVh": 72.88135593220339,
+		"scalingMethod": "scaleTwh",
+		"media": "large",
+		"colDims": null
+	},
+	"device": {
+		"cols": {
+			"valueRow": "none",
+			"valueCol": "1",
+			"maxCells": 0,
+			"maxCols": 0,
+			"classType": ""
+		},
+		"droppers": {},
+		"backgroundColor": "var(--widget-color-0)",
+		"inheritThemeBackgroundColor": true,
+		"theme": "default"
+	},
+	"dashboard": {
+		"annotationLabelA": {
+			"layout": {
+				"top": "2.96801vh",
+				"left": "1.64232vw",
+				"height": "8.90405vh",
+				"width": "75.5464vw",
+				"minHeight": "5px",
+				"minWidth": "5px",
+				"z-index": "1"
+			},
+			"container": {
+				"instanceId": "annotationLabelA",
+				"modelJsonId": "annotationLabel"
+			},
+			"modelParameters": {
+				"text": "파리 자전거 공유 이용 가용성",
+				"enableActuator": false,
+				"fontsize": 2,
+				"backgroundColor": "rgba(0, 0, 0, 0)",
+				"textColor": "var(--widget-label-color)",
+				"valueFontFamily": "var(--widget-font-family)",
+				"textAlign": "center",
+				"textBold": true,
+				"textUnderline": false,
+				"textItalic": false,
+				"displayBorder": false,
+				"borderColor": "var(--widget-border-color)",
+				"borderWidth": "2px",
+				"centerVertically": true,
+				"showWidget": true,
+				"enableWidget": true
+			},
+			"modelHiddenParams": {}
+		},
+		"flatUiSelectA": {
+			"layout": {
+				"top": "14.809vh",
+				"left": "1.63308vw",
+				"height": "5.9236vh",
+				"width": "19.7012vw",
+				"minHeight": "27px",
+				"minWidth": "40px",
+				"z-index": "2"
+			},
+			"container": {
+				"instanceId": "flatUiSelectA",
+				"modelJsonId": "flatUiSelect"
+			},
+			"modelParameters": {
+				"label": "지표",
+				"inheritLabelFromData": false,
+				"displayLabel": true,
+				"labelFontSize": 0.5,
+				"labelColor": "var(--widget-label-color)",
+				"labelFontFamily": "var(--widget-font-family)",
+				"selectWidthProportion": "70%",
+				"isNumber": false,
+				"isBoolean": false,
+				"selectValueFontFamily": "var(--widget-font-family)",
+				"selectValueFontSize": 0.5,
+				"selectedValueColor": "var(--widget-select-option-highlighted-text)",
+				"selectedItemDefaultColor": "var(--widget-select-option-highlighted-color)",
+				"selectedItemHoverColor": "var(--widget-select-option-highlighted-color)",
+				"isKeyValuePairs": false,
+				"showWidget": true,
+				"enableWidget": true
+			},
+			"modelHiddenParams": {
+				"keys": [],
+				"values": [],
+				"selectedValue": ""
+			}
+		},
+		"flatUiValueDisplayA": {
+			"layout": {
+				"top": "14.8305vh",
+				"left": "23.0047vw",
+				"height": "5.9322vh",
+				"width": "18.0751vw",
+				"minHeight": "24px",
+				"minWidth": "150px",
+				"z-index": "3"
+			},
+			"container": {
+				"instanceId": "flatUiValueDisplayA",
+				"modelJsonId": "flatUiValueDisplay"
+			},
+			"modelParameters": {
+				"label": "시간",
+				"inheritLabelFromData": false,
+				"displayLabel": true,
+				"labelFontSize": 0.5,
+				"labelColor": "var(--widget-label-color)",
+				"labelFontFamily": "var(--widget-font-family)",
+				"labelTextAlign": "left",
+				"valueWidthProportion": "70%",
+				"valueFontSize": 0.5,
+				"valueColor": "var(--widget-input-text)",
+				"valueFontFamily": "var(--widget-font-family)",
+				"valueTextAlign": "left",
+				"displayBorder": true,
+				"borderColor": "var(--widget-border-color)",
+				"backgroundColor": "var(--widget-input-color)",
+				"unit": "unitText",
+				"displayUnit": false,
+				"unitFontSize": 0.5,
+				"decimalDigits": 3,
+				"borderWidth": "2px",
+				"showWidget": true,
+				"enableWidget": true
+			},
+			"modelHiddenParams": {
+				"value": ""
+			}
+		},
+		"kpiCardA": {
+			"layout": {
+				"top": "14.809vh",
+				"left": "42.7033vw",
+				"height": "11.8472vh",
+				"width": "16.4351vw",
+				"minHeight": "32px",
+				"minWidth": "64px",
+				"z-index": "4"
+			},
+			"container": {
+				"instanceId": "kpiCardA",
+				"modelJsonId": "kpiCard"
+			},
+			"modelParameters": {
+				"label": "이용 가능한 자전거 수",
+				"inheritLabelFromData": false,
+				"displayLabel": true,
+				"labelFontSize": 0.4,
+				"labelColor": "var(--widget-label-color)",
+				"labelFontFamily": "var(--widget-font-family)",
+				"valuePosition": "bottom",
+				"valueFontSize": 2,
+				"valueColor": "var(--widget-color)",
+				"valueFontFamily": "var(--widget-font-family)",
+				"decimalDigits": 3,
+				"unit": "unitText",
+				"displayUnit": false,
+				"unitFontSize": 0.5,
+				"unitColor": "var(--widget-label-color)",
+				"borderShadow": false,
+				"showWidget": true,
+				"enableWidget": true
+			},
+			"modelHiddenParams": {
+				"value": "--"
+			}
+		},
+		"kpiCardB": {
+			"layout": {
+				"top": "14.809vh",
+				"left": "60.7714vw",
+				"height": "11.8472vh",
+				"width": "16.4351vw",
+				"minHeight": "32px",
+				"minWidth": "64px",
+				"z-index": "5"
+			},
+			"container": {
+				"instanceId": "kpiCardB",
+				"modelJsonId": "kpiCard"
+			},
+			"modelParameters": {
+				"label": "사용 가능한 도크 수",
+				"inheritLabelFromData": false,
+				"displayLabel": true,
+				"labelFontSize": 0.4,
+				"labelColor": "var(--widget-label-color)",
+				"labelFontFamily": "var(--widget-font-family)",
+				"valuePosition": "bottom",
+				"valueFontSize": 2,
+				"valueColor": "var(--widget-color)",
+				"valueFontFamily": "var(--widget-font-family)",
+				"decimalDigits": 3,
+				"unit": "unitText",
+				"displayUnit": false,
+				"unitFontSize": 0.5,
+				"unitColor": "var(--widget-label-color)",
+				"borderShadow": false,
+				"showWidget": true,
+				"enableWidget": true
+			},
+			"modelHiddenParams": {
+				"value": "--"
+			}
+		},
+		"echartsGenericA": {
+			"layout": {
+				"top": "29.7237vh",
+				"left": "42.7033vw",
+				"height": "32.6855vh",
+				"width": "34.5032vw",
+				"minHeight": "32px",
+				"minWidth": "50px",
+				"z-index": "6"
+			},
+			"container": {
+				"instanceId": "echartsGenericA",
+				"modelJsonId": "echartsGeneric"
+			},
+			"modelParameters": {
+				"showWidget": true,
+				"enableWidget": true
+			},
+			"modelHiddenParams": {
+				"option": {
+					"color": [
+						"var(--widget-color-2)",
+						"var(--widget-color-5)",
+						"var(--widget-color-6)",
+						"var(--widget-color-7)",
+						"var(--widget-color-8)",
+						"var(--widget-color-9)",
+						"var(--widget-color-10)",
+						"var(--widget-color-11)",
+						"var(--widget-color-12)",
+						"var(--widget-color-13)"
+					]
+				},
+				"selection": {}
+			}
+		},
+		"flatUiHorizontalSliderB": {
+			"layout": {
+				"top": "65.2653vh",
+				"left": "26.303vw",
+				"height": "5.9236vh",
+				"width": "19.736vw",
+				"minHeight": "24px",
+				"minWidth": "200px",
+				"z-index": "9"
+			},
+			"container": {
+				"instanceId": "flatUiHorizontalSliderB",
+				"modelJsonId": "flatUiHorizontalSlider"
+			},
+			"modelParameters": {
+				"label": "불투명도",
+				"inheritLabelFromData": false,
+				"displayLabel": true,
+				"labelFontSize": 0.5,
+				"labelColor": "var(--widget-label-color)",
+				"labelFontFamily": "var(--widget-font-family)",
+				"rangeActuator": false,
+				"min": 0,
+				"max": 1,
+				"step": 0.05,
+				"displayValue": true,
+				"validationOnFocusOut": true,
+				"valueFontSize": 0.5,
+				"valueFontFamily": "var(--widget-font-family)",
+				"valueBorderColor": "var(--widget-border-color)",
+				"labelWidthProportion": "20%",
+				"sliderWidthProportion": "60%",
+				"valueWidthProportion": "20%",
+				"sliderRangeColor": "var(--widget-range-color)",
+				"sliderSegmentColor": "var(--widget-segment-color)",
+				"sliderHandleDefaultColor": "var(--widget-handle-default-color)",
+				"sliderHandleHoverColor": "var(--widget-handle-hover-color)",
+				"sliderHandleActiveColor": "var(--widget-handle-active-color)",
+				"valueColor": "var(--widget-color)",
+				"unit": "unitText",
+				"displayUnit": false,
+				"unitFontSize": 0.5,
+				"showWidget": true,
+				"enableWidget": true
+			},
+			"modelHiddenParams": {
+				"value": 0
+			}
+		},
+		"annotationLabelB": {
+			"layout": {
+				"top": "65.2542vh",
+				"left": "47.6526vw",
+				"height": "5.9322vh",
+				"width": "5.7903vw",
+				"minHeight": "5px",
+				"minWidth": "5px",
+				"z-index": "10"
+			},
+			"container": {
+				"instanceId": "annotationLabelB",
+				"modelJsonId": "annotationLabel"
+			},
+			"modelParameters": {
+				"text": "자전거",
+				"enableActuator": false,
+				"fontsize": 0.5,
+				"backgroundColor": "rgba(0, 0, 0, 0)",
+				"textColor": "var(--widget-label-color)",
+				"valueFontFamily": "var(--widget-font-family)",
+				"textAlign": "center",
+				"textBold": false,
+				"textUnderline": false,
+				"textItalic": false,
+				"displayBorder": false,
+				"borderColor": "var(--widget-border-color)",
+				"borderWidth": "2px",
+				"centerVertically": true,
+				"showWidget": true,
+				"enableWidget": true
+			},
+			"modelHiddenParams": {}
+		},
+		"annotationLabelC": {
+			"layout": {
+				"top": "65.2653vh",
+				"left": "59.1384vw",
+				"height": "5.71204vh",
+				"width": "5.45518vw",
+				"minHeight": "5px",
+				"minWidth": "5px",
+				"z-index": "11"
+			},
+			"container": {
+				"instanceId": "annotationLabelC",
+				"modelJsonId": "annotationLabel"
+			},
+			"modelParameters": {
+				"text": "도크",
+				"enableActuator": false,
+				"fontsize": 0.5,
+				"backgroundColor": "rgba(0, 0, 0, 0)",
+				"textColor": "var(--widget-label-color)",
+				"valueFontFamily": "var(--widget-font-family)",
+				"textAlign": "center",
+				"textBold": false,
+				"textUnderline": false,
+				"textItalic": false,
+				"displayBorder": false,
+				"borderColor": "var(--widget-border-color)",
+				"borderWidth": "2px",
+				"centerVertically": true,
+				"showWidget": true,
+				"enableWidget": true
+			},
+			"modelHiddenParams": {}
+		},
+		"openStreetMapsA": {
+			"layout": {
+				"top": "23.7442vh",
+				"left": "1.64436vw",
+				"height": "38.5842vh",
+				"width": "39.365vw",
+				"minHeight": "20px",
+				"minWidth": "20px",
+				"z-index": "13"
+			},
+			"container": {
+				"instanceId": "openStreetMapsA",
+				"modelJsonId": "openStreetMaps"
+			},
+			"modelParameters": {
+				"geoJson": {
+					"numberOfLayers": 1
+				},
+				"choropleth": {
+					"numberOfLayers": 0
+				},
+				"heatMap": {
+					"numberOfLayers": 1,
+					"sampledDisplay": false,
+					"densityHeatMap": false
+				},
+				"lineHeatMap": {
+					"numberOfLayers": 0
+				},
+				"imageOverlay": {
+					"numberOfLayers": 0
+				},
+				"svgOverlay": {
+					"numberOfLayers": 0
+				},
+				"defaultCenter": {
+					"latitude": 48.872063,
+					"longitude": 2.331773,
+					"zoom": 16
+				},
+				"offlineSupport": false,
+				"tileServer": "MapboxDark",
+				"drawingFeatures": true,
+				"drawingFeaturesOptions": {
+					"point": false,
+					"line": false,
+					"polygon": true,
+					"rectangle": true,
+					"modal": false
+				},
+				"captureClickEvent": false,
+				"markerCluster": true,
+				"showWidget": true,
+				"enableWidget": true
+			},
+			"modelHiddenParams": {
+				"geoJson": {
+					"geoJsonLayers": [],
+					"geoJsonBounds": []
+				},
+				"choropleth": {
+					"choroplethLayers": [],
+					"choroplethBounds": []
+				},
+				"lineHeatMap": {
+					"lineHeatMapLayers": [],
+					"lineHeatMapBounds": []
+				},
+				"heatMap": {
+					"heatMapData": [],
+					"heatMapBuffer": []
+				},
+				"imageOverlay": {
+					"imageData": []
+				},
+				"svgOverlay": {
+					"svgData": [],
+					"svgElements": []
+				},
+				"legends": [],
+				"colors": [
+					"#800080",
+					"#FF00FF",
+					"#000080",
+					"#0000FF",
+					"#008080",
+					"#00FFFF",
+					"#FFFF00",
+					"#800000",
+					"#6666ff",
+					"#cc6699",
+					"#66ff66",
+					"#666699",
+					"#996633",
+					"#ff0000",
+					"#669999",
+					"#ffff99"
+				]
+			}
+		},
+		"flatUiSwitchA": {
+			"layout": {
+				"top": "65.2965vh",
+				"left": "54.1965vw",
+				"height": "5.93604vh",
+				"width": "11.4962vw",
+				"minHeight": "24px",
+				"minWidth": "50px",
+				"z-index": "14"
+			},
+			"container": {
+				"instanceId": "flatUiSwitchA",
+				"modelJsonId": "flatUiSwitch"
+			},
+			"modelParameters": {
+				"label": "",
+				"inheritLabelFromData": true,
+				"displayLabel": true,
+				"labelPosition": "right",
+				"labelFontSize": 0.5,
+				"labelColor": "var(--widget-label-color)",
+				"labelFontFamily": "var(--widget-font-family)",
+				"switchWidthProportion": "30%",
+				"switchOnColor": "var(--widget-input-checked-color)",
+				"switchOffColor": "var(--widget-input-unchecked-color)",
+				"showWidget": true,
+				"enableWidget": true
+			},
+			"modelHiddenParams": {
+				"value": false
+			}
+		},
+		"flatUiHorizontalSliderA": {
+			"layout": {
+				"top": "65.2653vh",
+				"left": "1.63308vw",
+				"height": "5.9236vh",
+				"width": "23.0368vw",
+				"minHeight": "24px",
+				"minWidth": "200px",
+				"z-index": "15"
+			},
+			"container": {
+				"instanceId": "flatUiHorizontalSliderA",
+				"modelJsonId": "flatUiHorizontalSlider"
+			},
+			"modelParameters": {
+				"label": "반지름",
+				"inheritLabelFromData": false,
+				"displayLabel": true,
+				"labelFontSize": 0.5,
+				"labelColor": "var(--widget-label-color)",
+				"labelFontFamily": "var(--widget-font-family)",
+				"rangeActuator": false,
+				"min": 0,
+				"max": 100,
+				"step": 1,
+				"displayValue": true,
+				"validationOnFocusOut": true,
+				"valueFontSize": 0.5,
+				"valueFontFamily": "var(--widget-font-family)",
+				"valueBorderColor": "var(--widget-border-color)",
+				"labelWidthProportion": "20%",
+				"sliderWidthProportion": "60%",
+				"valueWidthProportion": "20%",
+				"sliderRangeColor": "var(--widget-range-color)",
+				"sliderSegmentColor": "var(--widget-segment-color)",
+				"sliderHandleDefaultColor": "var(--widget-handle-default-color)",
+				"sliderHandleHoverColor": "var(--widget-handle-hover-color)",
+				"sliderHandleActiveColor": "var(--widget-handle-active-color)",
+				"valueColor": "var(--widget-color)",
+				"unit": "unitText",
+				"displayUnit": false,
+				"unitFontSize": 0.5,
+				"showWidget": true,
+				"enableWidget": true
+			},
+			"modelHiddenParams": {
+				"value": 0
+			}
+		}
+	},
+	"connections": {
+		"annotationLabelA": {},
+		"flatUiSelectA": {
+			"keys": {
+				"name": "keys",
+				"dataNode": "indicator",
+				"dataFields": []
+			},
+			"values": {
+				"name": "values",
+				"dataNode": "indicator",
+				"dataFields": []
+			},
+			"selectedValue": {
+				"name": "selectedValue",
+				"dataNode": "selected_indicator",
+				"dataFields": []
+			}
+		},
+		"flatUiValueDisplayA": {
+			"value": {
+				"name": "value",
+				"dataNode": "last_update",
+				"dataFields": []
+			}
+		},
+		"kpiCardA": {
+			"value": {
+				"name": "value",
+				"dataNode": "global_stats",
+				"dataFields": [
+					"Number of available bikes"
+				]
+			}
+		},
+		"kpiCardB": {
+			"value": {
+				"name": "value",
+				"dataNode": "global_stats",
+				"dataFields": [
+					"Number of available docks"
+				]
+			}
+		},
+		"echartsGenericA": {
+			"option": {
+				"name": "option",
+				"dataNode": "echarts_option_json",
+				"dataFields": []
+			},
+			"selection": {
+				"name": "selection",
+				"dataNode": "None",
+				"dataFields": []
+			}
+		},
+		"flatUiHorizontalSliderB": {
+			"value": {
+				"name": "value",
+				"dataNode": "cfg",
+				"dataFields": [
+					"opacity"
+				]
+			}
+		},
+		"annotationLabelB": {},
+		"annotationLabelC": {},
+		"openStreetMapsA": {
+			"selectedGeoJson": {
+				"name": "selectedGeoJson",
+				"dataNode": "selected_polygon_geojson",
+				"dataFields": []
+			},
+			"geoJson1": {
+				"name": "geoJson1",
+				"dataNode": "None",
+				"dataFields": []
+			},
+			"heatMapData1": {
+				"name": "heatMapData1",
+				"dataNode": "heatmap_json",
+				"dataFields": []
+			}
+		},
+		"flatUiSwitchA": {},
+		"flatUiHorizontalSliderA": {
+			"value": {
+				"name": "value",
+				"dataNode": "cfg",
+				"dataFields": [
+					"radius"
+				]
+			}
+		}
+	},
+	"exportOptions": "ajustToTargetWindow",
+	"pages": {
+		"pageNames": [],
+		"defaultPage": {}
+	},
+	"checkExportOptions": true,
+	"navBarNotification": false
+}
