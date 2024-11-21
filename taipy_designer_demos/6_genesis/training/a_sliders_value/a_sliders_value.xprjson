@@ -1,0 +1,213 @@
+{
+	"meta": {
+		"version": "3.000.8887",
+		"fileFormatVersion": "0.3",
+		"date": "2024-06-20T09:06:19.116+02:00",
+		"name": "a_sliders_value",
+		"description": "",
+		"groupName": "",
+		"tags": [],
+		"schedulerLogOff": true
+	},
+	"data": {
+		"datanodes": []
+	},
+	"libraries": {
+		"pyodideStandard": [],
+		"pyodideMicropip": []
+	},
+	"scaling": {
+		"widthPx": 1274,
+		"heightPx": 590,
+		"scrollWidthPx": 1274,
+		"scrollHeightPx": 590,
+		"widthVw": 83.37696335078535,
+		"heightVh": 78.66666666666667,
+		"scrollWidthVw": 83.37696335078535,
+		"scrollHeightVh": 78.66666666666667,
+		"scalingMethod": "scaleTwh",
+		"media": "large",
+		"colDims": null
+	},
+	"device": {
+		"cols": {
+			"valueRow": "none",
+			"valueCol": "1",
+			"maxCells": 0,
+			"maxCols": 0,
+			"classType": ""
+		},
+		"droppers": {},
+		"backgroundColor": "var(--widget-color-0)",
+		"inheritThemeBackgroundColor": true,
+		"theme": "default"
+	},
+	"dashboard": {
+		"flatUiHorizontalSliderA": {
+			"layout": {
+				"top": "8.53667vh",
+				"left": "6.18052vw",
+				"height": "5.06667vh",
+				"width": "23.6287vw",
+				"minHeight": "24px",
+				"minWidth": "200px",
+				"z-index": "1"
+			},
+			"container": {
+				"instanceId": "flatUiHorizontalSliderA",
+				"modelJsonId": "flatUiHorizontalSlider"
+			},
+			"modelParameters": {
+				"label": "a",
+				"inheritLabelFromData": true,
+				"displayLabel": true,
+				"labelFontSize": 0.5,
+				"labelColor": "var(--widget-label-color)",
+				"labelFontFamily": "var(--widget-font-family)",
+				"rangeActuator": false,
+				"min": 0,
+				"max": 100,
+				"step": 1,
+				"displayValue": true,
+				"validationOnFocusOut": true,
+				"valueFontSize": 0.5,
+				"valueFontFamily": "var(--widget-font-family)",
+				"valueBorderColor": "var(--widget-border-color)",
+				"labelWidthProportion": "20%",
+				"sliderWidthProportion": "60%",
+				"valueWidthProportion": "20%",
+				"sliderRangeColor": "var(--widget-range-color)",
+				"sliderSegmentColor": "var(--widget-segment-color)",
+				"sliderHandleDefaultColor": "var(--widget-handle-default-color)",
+				"sliderHandleHoverColor": "var(--widget-handle-hover-color)",
+				"sliderHandleActiveColor": "var(--widget-handle-active-color)",
+				"valueColor": "var(--widget-color)",
+				"unit": "unitText",
+				"displayUnit": false,
+				"unitFontSize": 0.5,
+				"showWidget": true,
+				"enableWidget": true
+			},
+			"modelHiddenParams": {
+				"value": 0
+			}
+		},
+		"flatUiHorizontalSliderB": {
+			"layout": {
+				"top": "19.61vh",
+				"left": "6.18052vw",
+				"height": "5.06667vh",
+				"width": "23.6287vw",
+				"minHeight": "24px",
+				"minWidth": "200px",
+				"z-index": "2"
+			},
+			"container": {
+				"instanceId": "flatUiHorizontalSliderB",
+				"modelJsonId": "flatUiHorizontalSlider"
+			},
+			"modelParameters": {
+				"label": "b",
+				"inheritLabelFromData": true,
+				"displayLabel": true,
+				"labelFontSize": 0.5,
+				"labelColor": "var(--widget-label-color)",
+				"labelFontFamily": "var(--widget-font-family)",
+				"rangeActuator": false,
+				"min": 0,
+				"max": 100,
+				"step": 1,
+				"displayValue": true,
+				"validationOnFocusOut": true,
+				"valueFontSize": 0.5,
+				"valueFontFamily": "var(--widget-font-family)",
+				"valueBorderColor": "var(--widget-border-color)",
+				"labelWidthProportion": "20%",
+				"sliderWidthProportion": "60%",
+				"valueWidthProportion": "20%",
+				"sliderRangeColor": "var(--widget-range-color)",
+				"sliderSegmentColor": "var(--widget-segment-color)",
+				"sliderHandleDefaultColor": "var(--widget-handle-default-color)",
+				"sliderHandleHoverColor": "var(--widget-handle-hover-color)",
+				"sliderHandleActiveColor": "var(--widget-handle-active-color)",
+				"valueColor": "var(--widget-color)",
+				"unit": "unitText",
+				"displayUnit": false,
+				"unitFontSize": 0.5,
+				"showWidget": true,
+				"enableWidget": true
+			},
+			"modelHiddenParams": {
+				"value": 0
+			}
+		},
+		"kpiCardA": {
+			"layout": {
+				"top": "8.53667vh",
+				"left": "31.805vw",
+				"height": "16vh",
+				"width": "17.7054vw",
+				"minHeight": "32px",
+				"minWidth": "64px",
+				"z-index": "3"
+			},
+			"container": {
+				"instanceId": "kpiCardA",
+				"modelJsonId": "kpiCard"
+			},
+			"modelParameters": {
+				"label": "c",
+				"inheritLabelFromData": true,
+				"displayLabel": true,
+				"labelFontSize": 0.5,
+				"labelColor": "var(--widget-label-color)",
+				"labelFontFamily": "var(--widget-font-family)",
+				"valuePosition": "bottom",
+				"valueFontSize": 2,
+				"valueColor": "var(--widget-color)",
+				"valueFontFamily": "var(--widget-font-family)",
+				"decimalDigits": 3,
+				"unit": "unitText",
+				"displayUnit": false,
+				"unitFontSize": 0.5,
+				"unitColor": "var(--widget-label-color)",
+				"borderShadow": false,
+				"showWidget": true,
+				"enableWidget": true
+			},
+			"modelHiddenParams": {
+				"value": "--"
+			}
+		}
+	},
+	"connections": {
+		"flatUiHorizontalSliderA": {
+			"value": {
+				"name": "value",
+				"dataNode": "a",
+				"dataFields": []
+			}
+		},
+		"flatUiHorizontalSliderB": {
+			"value": {
+				"name": "value",
+				"dataNode": "b",
+				"dataFields": []
+			}
+		},
+		"kpiCardA": {
+			"value": {
+				"name": "value",
+				"dataNode": "c",
+				"dataFields": []
+			}
+		}
+	},
+	"exportOptions": "ajustToTargetWindow",
+	"pages": {
+		"pageNames": [],
+		"defaultPage": {}
+	},
+	"checkExportOptions": true,
+	"navBarNotification": false
+}

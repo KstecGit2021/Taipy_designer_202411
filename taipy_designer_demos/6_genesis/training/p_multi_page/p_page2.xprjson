@@ -1,0 +1,103 @@
+{
+	"meta": {
+		"version": "3.000.8887",
+		"fileFormatVersion": "0.3",
+		"date": "2024-06-09T12:46:35.994+02:00",
+		"name": "p_page2",
+		"description": "",
+		"groupName": "",
+		"tags": [],
+		"schedulerLogOff": true
+	},
+	"data": {
+		"datanodes": []
+	},
+	"libraries": {
+		"pyodideStandard": [],
+		"pyodideMicropip": []
+	},
+	"scaling": {
+		"widthPx": 1275,
+		"heightPx": 590,
+		"scrollWidthPx": 1275,
+		"scrollHeightPx": 590,
+		"widthVw": 83.44240837696336,
+		"heightVh": 78.66666666666667,
+		"scrollWidthVw": 83.44240837696336,
+		"scrollHeightVh": 78.66666666666667,
+		"scalingMethod": "scaleTwh",
+		"media": "large",
+		"colDims": null
+	},
+	"device": {
+		"cols": {
+			"valueRow": "none",
+			"valueCol": "1",
+			"maxCells": 0,
+			"maxCols": 0,
+			"classType": ""
+		},
+		"droppers": {},
+		"backgroundColor": "var(--widget-color-0)",
+		"inheritThemeBackgroundColor": true,
+		"theme": "default"
+	},
+	"dashboard": {
+		"flatUiValueDisplayA": {
+			"layout": {
+				"top": "11.845vh",
+				"left": "6.54614vw",
+				"height": "5.06667vh",
+				"width": "18.6859vw",
+				"minHeight": "24px",
+				"minWidth": "150px",
+				"z-index": "1"
+			},
+			"container": {
+				"instanceId": "flatUiValueDisplayA",
+				"modelJsonId": "flatUiValueDisplay"
+			},
+			"modelParameters": {
+				"label": "text",
+				"inheritLabelFromData": true,
+				"displayLabel": true,
+				"labelFontSize": 0.5,
+				"labelColor": "var(--widget-label-color)",
+				"labelFontFamily": "var(--widget-font-family)",
+				"labelTextAlign": "left",
+				"valueWidthProportion": "70%",
+				"valueFontSize": 0.5,
+				"valueColor": "var(--widget-input-text)",
+				"valueFontFamily": "var(--widget-font-family)",
+				"valueTextAlign": "left",
+				"displayBorder": true,
+				"borderColor": "var(--widget-border-color)",
+				"backgroundColor": "var(--widget-input-color)",
+				"unit": "unitText",
+				"displayUnit": false,
+				"unitFontSize": 0.5,
+				"decimalDigits": 3,
+				"borderWidth": "2px"
+			},
+			"modelHiddenParams": {
+				"value": ""
+			}
+		}
+	},
+	"connections": {
+		"flatUiValueDisplayA": {
+			"value": {
+				"name": "value",
+				"dataNode": "text",
+				"dataFields": []
+			}
+		}
+	},
+	"exportOptions": "ajustToTargetWindow",
+	"pages": {
+		"pageNames": [],
+		"defaultPage": {}
+	},
+	"checkExportOptions": true,
+	"navBarNotification": false
+}

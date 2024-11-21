@@ -1,0 +1,205 @@
+{
+	"meta": {
+		"version": "3.000.8844",
+		"fileFormatVersion": "0.3",
+		"date": "2024-06-09T11:57:35.671+02:00",
+		"name": "l_pillow_image",
+		"description": "",
+		"groupName": "",
+		"tags": [],
+		"schedulerLogOff": true
+	},
+	"data": {
+		"datanodes": []
+	},
+	"libraries": {
+		"pyodideStandard": [],
+		"pyodideMicropip": []
+	},
+	"scaling": {
+		"widthPx": 1275,
+		"heightPx": 590,
+		"scrollWidthPx": 1275,
+		"scrollHeightPx": 590,
+		"widthVw": 83.44240837696336,
+		"heightVh": 78.66666666666667,
+		"scrollWidthVw": 83.44240837696336,
+		"scrollHeightVh": 78.66666666666667,
+		"scalingMethod": "scaleTwh",
+		"media": "large",
+		"colDims": null
+	},
+	"device": {
+		"cols": {
+			"valueRow": "none",
+			"valueCol": "1",
+			"maxCells": 0,
+			"maxCols": 0,
+			"classType": ""
+		},
+		"droppers": {},
+		"backgroundColor": "var(--widget-color-0)",
+		"inheritThemeBackgroundColor": true,
+		"theme": "default"
+	},
+	"dashboard": {
+		"flatUiHorizontalSliderA": {
+			"layout": {
+				"top": "13.74vh",
+				"left": "35.3092vw",
+				"height": "5.06667vh",
+				"width": "23.6472vw",
+				"minHeight": "24px",
+				"minWidth": "200px",
+				"z-index": "2"
+			},
+			"container": {
+				"instanceId": "flatUiHorizontalSliderA",
+				"modelJsonId": "flatUiHorizontalSlider"
+			},
+			"modelParameters": {
+				"label": "greyscale_intensity",
+				"inheritLabelFromData": true,
+				"displayLabel": true,
+				"labelFontSize": 0.5,
+				"labelColor": "var(--widget-label-color)",
+				"labelFontFamily": "var(--widget-font-family)",
+				"rangeActuator": false,
+				"min": 0,
+				"max": 1,
+				"step": 0.01,
+				"displayValue": true,
+				"validationOnFocusOut": true,
+				"valueFontSize": 0.5,
+				"valueFontFamily": "var(--widget-font-family)",
+				"valueBorderColor": "var(--widget-border-color)",
+				"labelWidthProportion": "20%",
+				"sliderWidthProportion": "50%",
+				"valueWidthProportion": "30%",
+				"sliderRangeColor": "var(--widget-range-color)",
+				"sliderSegmentColor": "var(--widget-segment-color)",
+				"sliderHandleDefaultColor": "var(--widget-handle-default-color)",
+				"sliderHandleHoverColor": "var(--widget-handle-hover-color)",
+				"sliderHandleActiveColor": "var(--widget-handle-active-color)",
+				"valueColor": "var(--widget-color)",
+				"unit": "unitText",
+				"displayUnit": false,
+				"unitFontSize": 0.5
+			},
+			"modelHiddenParams": {
+				"value": 0
+			}
+		},
+		"annotationImageConnectedA": {
+			"layout": {
+				"top": "23.4783vh",
+				"left": "8.76227vw",
+				"height": "38vh",
+				"width": "23.0673vw",
+				"minHeight": "20px",
+				"minWidth": "20px",
+				"z-index": "3"
+			},
+			"container": {
+				"instanceId": "annotationImageConnectedA",
+				"modelJsonId": "annotationImageConnected"
+			},
+			"modelParameters": {
+				"keepRatio": true,
+				"hideImageURL": true,
+				"enableActuator": true
+			},
+			"modelHiddenParams": {
+				"fileContentBase64": "",
+				"mimeType": ""
+			}
+		},
+		"annotationImageConnectedB": {
+			"layout": {
+				"top": "23.4783vh",
+				"left": "35.8508vw",
+				"height": "38vh",
+				"width": "23.0673vw",
+				"minHeight": "20px",
+				"minWidth": "20px",
+				"z-index": "4"
+			},
+			"container": {
+				"instanceId": "annotationImageConnectedB",
+				"modelJsonId": "annotationImageConnected"
+			},
+			"modelParameters": {
+				"keepRatio": true,
+				"hideImageURL": true,
+				"enableActuator": true
+			},
+			"modelHiddenParams": {
+				"fileContentBase64": "",
+				"mimeType": ""
+			}
+		},
+		"annotationLabelA": {
+			"layout": {
+				"top": "13.74vh",
+				"left": "9.08459vw",
+				"height": "5.06667vh",
+				"width": "11.7914vw",
+				"minHeight": "5px",
+				"minWidth": "5px",
+				"z-index": "5"
+			},
+			"container": {
+				"instanceId": "annotationLabelA",
+				"modelJsonId": "annotationLabel"
+			},
+			"modelParameters": {
+				"text": "Original image",
+				"enableActuator": false,
+				"fontsize": 0.5,
+				"backgroundColor": "rgba(0, 0, 0, 0)",
+				"textColor": "var(--widget-label-color)",
+				"valueFontFamily": "var(--widget-font-family)",
+				"textAlign": "left",
+				"textBold": false,
+				"textUnderline": false,
+				"textItalic": false,
+				"displayBorder": false,
+				"borderColor": "var(--widget-border-color)",
+				"borderWidth": "2px",
+				"centerVertically": true
+			},
+			"modelHiddenParams": {}
+		}
+	},
+	"connections": {
+		"flatUiHorizontalSliderA": {
+			"value": {
+				"name": "value",
+				"dataNode": "greyscale_intensity",
+				"dataFields": []
+			}
+		},
+		"annotationImageConnectedA": {
+			"base64Image": {
+				"name": "base64Image",
+				"dataNode": "image",
+				"dataFields": []
+			}
+		},
+		"annotationImageConnectedB": {
+			"base64Image": {
+				"name": "base64Image",
+				"dataNode": "img_grey",
+				"dataFields": []
+			}
+		},
+		"annotationLabelA": {}
+	},
+	"exportOptions": "ajustToTargetWindow",
+	"pages": {
+		"pageNames": [],
+		"defaultPage": {}
+	},
+	"checkExportOptions": true,
+	"navBarNotification": false
+}

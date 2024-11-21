@@ -1,0 +1,82 @@
+{
+	"meta": {
+		"version": "3.000.8887",
+		"fileFormatVersion": "0.3",
+		"date": "2024-06-09T11:33:50.861+02:00",
+		"name": "j_matplotlib_figure",
+		"description": "",
+		"groupName": "",
+		"tags": [],
+		"schedulerLogOff": true
+	},
+	"data": {
+		"datanodes": []
+	},
+	"libraries": {
+		"pyodideStandard": [],
+		"pyodideMicropip": []
+	},
+	"scaling": {
+		"widthPx": 1275,
+		"heightPx": 590,
+		"scrollWidthPx": 1275,
+		"scrollHeightPx": 590,
+		"widthVw": 83.44240837696336,
+		"heightVh": 78.66666666666667,
+		"scrollWidthVw": 83.44240837696336,
+		"scrollHeightVh": 78.66666666666667,
+		"scalingMethod": "scaleTwh",
+		"media": "large",
+		"colDims": null
+	},
+	"device": {
+		"cols": {
+			"valueRow": "none",
+			"valueCol": "1",
+			"maxCells": 0,
+			"maxCols": 0,
+			"classType": ""
+		},
+		"droppers": {},
+		"backgroundColor": "var(--widget-color-0)",
+		"inheritThemeBackgroundColor": true,
+		"theme": "default"
+	},
+	"dashboard": {
+		"matplotlibA": {
+			"layout": {
+				"top": "1.46667vh",
+				"left": "5.54074vw",
+				"height": "66.6667vh",
+				"width": "38.918vw",
+				"minHeight": "32px",
+				"minWidth": "50px",
+				"z-index": "1"
+			},
+			"container": {
+				"instanceId": "matplotlibA",
+				"modelJsonId": "matplotlib"
+			},
+			"modelParameters": {},
+			"modelHiddenParams": {
+				"fig": {}
+			}
+		}
+	},
+	"connections": {
+		"matplotlibA": {
+			"fig": {
+				"name": "fig",
+				"dataNode": "fig",
+				"dataFields": []
+			}
+		}
+	},
+	"exportOptions": "ajustToTargetWindow",
+	"pages": {
+		"pageNames": [],
+		"defaultPage": {}
+	},
+	"checkExportOptions": true,
+	"navBarNotification": false
+}

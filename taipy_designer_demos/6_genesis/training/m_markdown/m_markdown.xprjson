@@ -1,0 +1,90 @@
+{
+	"meta": {
+		"version": "3.000.8887",
+		"fileFormatVersion": "0.3",
+		"date": "2024-06-09T12:18:19.977+02:00",
+		"name": "m_markdown",
+		"description": "",
+		"groupName": "",
+		"tags": [],
+		"schedulerLogOff": true
+	},
+	"data": {
+		"datanodes": []
+	},
+	"libraries": {
+		"pyodideStandard": [],
+		"pyodideMicropip": []
+	},
+	"scaling": {
+		"widthPx": 1275,
+		"heightPx": 590,
+		"scrollWidthPx": 1275,
+		"scrollHeightPx": 590,
+		"widthVw": 83.44240837696336,
+		"heightVh": 78.66666666666667,
+		"scrollWidthVw": 83.44240837696336,
+		"scrollHeightVh": 78.66666666666667,
+		"scalingMethod": "scaleTwh",
+		"media": "large",
+		"colDims": null
+	},
+	"device": {
+		"cols": {
+			"valueRow": "none",
+			"valueCol": "1",
+			"maxCells": 0,
+			"maxCols": 0,
+			"classType": ""
+		},
+		"droppers": {},
+		"backgroundColor": "var(--widget-color-0)",
+		"inheritThemeBackgroundColor": true,
+		"theme": "default"
+	},
+	"dashboard": {
+		"annotationMarkdownA": {
+			"layout": {
+				"top": "2.53333vh",
+				"left": "2.76996vw",
+				"height": "73.7333vh",
+				"width": "78.1582vw",
+				"minHeight": "32px",
+				"minWidth": "50px",
+				"z-index": "1"
+			},
+			"container": {
+				"instanceId": "annotationMarkdownA",
+				"modelJsonId": "annotationMarkdown"
+			},
+			"modelParameters": {
+				"fontsize": 0.3,
+				"backgroundColor": "rgba(0, 0, 0, 0)",
+				"textColor": "var(--widget-color)",
+				"valueFontFamily": "var(--widget-font-family)",
+				"textAlign": "left",
+				"displayBorder": false,
+				"centerVertically": true
+			},
+			"modelHiddenParams": {
+				"text": ""
+			}
+		}
+	},
+	"connections": {
+		"annotationMarkdownA": {
+			"text": {
+				"name": "text",
+				"dataNode": "markdown_content",
+				"dataFields": []
+			}
+		}
+	},
+	"exportOptions": "ajustToTargetWindow",
+	"pages": {
+		"pageNames": [],
+		"defaultPage": {}
+	},
+	"checkExportOptions": true,
+	"navBarNotification": false
+}

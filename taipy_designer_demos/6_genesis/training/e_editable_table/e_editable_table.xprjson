@@ -1,0 +1,174 @@
+{
+	"meta": {
+		"version": "3.000.8887",
+		"fileFormatVersion": "0.3",
+		"date": "2024-06-09T10:58:14.639+02:00",
+		"name": "e_editable_table",
+		"description": "",
+		"groupName": "",
+		"tags": [],
+		"schedulerLogOff": true
+	},
+	"data": {
+		"datanodes": []
+	},
+	"libraries": {
+		"pyodideStandard": [],
+		"pyodideMicropip": []
+	},
+	"scaling": {
+		"widthPx": 1275,
+		"heightPx": 590,
+		"scrollWidthPx": 1275,
+		"scrollHeightPx": 590,
+		"widthVw": 83.44240837696336,
+		"heightVh": 78.66666666666667,
+		"scrollWidthVw": 83.44240837696336,
+		"scrollHeightVh": 78.66666666666667,
+		"scalingMethod": "scaleTwh",
+		"media": "large",
+		"colDims": null
+	},
+	"device": {
+		"cols": {
+			"valueRow": "none",
+			"valueCol": "1",
+			"maxCells": 0,
+			"maxCols": 0,
+			"classType": ""
+		},
+		"droppers": {},
+		"backgroundColor": "var(--widget-color-0)",
+		"inheritThemeBackgroundColor": true,
+		"theme": "default"
+	},
+	"dashboard": {
+		"flatUiEditableTableA": {
+			"layout": {
+				"top": "18.4083vh",
+				"left": "2.07461vw",
+				"height": "53.2vh",
+				"width": "49.5496vw",
+				"minHeight": "79px",
+				"minWidth": "88px",
+				"z-index": "1"
+			},
+			"container": {
+				"instanceId": "flatUiEditableTableA",
+				"modelJsonId": "flatUiEditableTable"
+			},
+			"modelParameters": {
+				"headerLine": true,
+				"indexColumn": true,
+				"showIndex": false,
+				"tableValueFontSize": 0.5,
+				"striped": true,
+				"valueColor": "var(--widget-table-value-color)",
+				"valueFontFamily": "var(--widget-font-family)",
+				"valueAlign": "left",
+				"bordered": true,
+				"noBorder": false,
+				"editableCols": "*",
+				"backgroundColor": {
+					"primary": "var(--widget-color-0)",
+					"secondary": "var(--widget-table-striped-odd)"
+				}
+			},
+			"modelHiddenParams": {
+				"value": null
+			}
+		},
+		"annotationLabelA": {
+			"layout": {
+				"top": "9.765vh",
+				"left": "2.04843vw",
+				"height": "6.13333vh",
+				"width": "22.7451vw",
+				"minHeight": "5px",
+				"minWidth": "5px",
+				"z-index": "2"
+			},
+			"container": {
+				"instanceId": "annotationLabelA",
+				"modelJsonId": "annotationLabel"
+			},
+			"modelParameters": {
+				"text": "Store attendance by city",
+				"enableActuator": false,
+				"fontsize": 0.5,
+				"backgroundColor": "rgba(0, 0, 0, 0)",
+				"textColor": "var(--widget-label-color)",
+				"valueFontFamily": "var(--widget-font-family)",
+				"textAlign": "left",
+				"textBold": false,
+				"textUnderline": false,
+				"textItalic": false,
+				"displayBorder": false,
+				"borderColor": "var(--widget-border-color)",
+				"borderWidth": "2px",
+				"centerVertically": true
+			},
+			"modelHiddenParams": {}
+		},
+		"kpiCardA": {
+			"layout": {
+				"top": "22.0117vh",
+				"left": "53.9439vw",
+				"height": "29.2vh",
+				"width": "21.4565vw",
+				"minHeight": "32px",
+				"minWidth": "64px",
+				"z-index": "3"
+			},
+			"container": {
+				"instanceId": "kpiCardA",
+				"modelJsonId": "kpiCard"
+			},
+			"modelParameters": {
+				"label": "total",
+				"inheritLabelFromData": true,
+				"displayLabel": true,
+				"labelFontSize": 0.5,
+				"labelColor": "var(--widget-label-color)",
+				"labelFontFamily": "var(--widget-font-family)",
+				"valuePosition": "bottom",
+				"valueFontSize": 2,
+				"valueColor": "var(--widget-color)",
+				"valueFontFamily": "var(--widget-font-family)",
+				"decimalDigits": 3,
+				"unit": "unitText",
+				"displayUnit": false,
+				"unitFontSize": 0.5,
+				"unitColor": "var(--widget-label-color)",
+				"borderShadow": false
+			},
+			"modelHiddenParams": {
+				"value": "--"
+			}
+		}
+	},
+	"connections": {
+		"flatUiEditableTableA": {
+			"value": {
+				"name": "value",
+				"dataNode": "editable_table",
+				"dataFields": []
+			}
+		},
+		"annotationLabelA": {},
+		"kpiCardA": {
+			"value": {
+				"name": "value",
+				"dataNode": "total",
+				"dataFields": []
+			}
+		}
+	},
+	"exportOptions": "ajustToTargetWindow",
+	"pages": {
+		"pageNames": [],
+		"defaultPage": {}
+	},
+	"checkExportOptions": true,
+	"navBarNotification": false
+}

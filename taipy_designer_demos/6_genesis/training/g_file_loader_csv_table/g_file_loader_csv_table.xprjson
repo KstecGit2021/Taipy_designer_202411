@@ -1,0 +1,180 @@
+{
+	"meta": {
+		"version": "3.000.8887",
+		"fileFormatVersion": "0.3",
+		"date": "2024-06-20T09:11:20.187+02:00",
+		"name": "g_file_loader_csv_table",
+		"description": "",
+		"groupName": "",
+		"tags": [],
+		"schedulerLogOff": true
+	},
+	"data": {
+		"datanodes": []
+	},
+	"libraries": {
+		"pyodideStandard": [],
+		"pyodideMicropip": []
+	},
+	"scaling": {
+		"widthPx": 1274,
+		"heightPx": 590,
+		"scrollWidthPx": 1274,
+		"scrollHeightPx": 590,
+		"widthVw": 83.37696335078535,
+		"heightVh": 78.66666666666667,
+		"scrollWidthVw": 83.37696335078535,
+		"scrollHeightVh": 78.66666666666667,
+		"scalingMethod": "scaleTwh",
+		"media": "large",
+		"colDims": null
+	},
+	"device": {
+		"cols": {
+			"valueRow": "none",
+			"valueCol": "1",
+			"maxCells": 0,
+			"maxCols": 0,
+			"classType": ""
+		},
+		"droppers": {},
+		"backgroundColor": "var(--widget-color-0)",
+		"inheritThemeBackgroundColor": true,
+		"theme": "default"
+	},
+	"dashboard": {
+		"flatUiFileInputButtonA": {
+			"layout": {
+				"top": "12.1383vh",
+				"left": "4.77374vw",
+				"height": "7.06667vh",
+				"width": "8.89354vw",
+				"minHeight": "24px",
+				"minWidth": "55px",
+				"z-index": "1"
+			},
+			"container": {
+				"instanceId": "flatUiFileInputButtonA",
+				"modelJsonId": "flatUiFileInputButton"
+			},
+			"modelParameters": {
+				"text": "Load csv file",
+				"numberOfTriggers": 1,
+				"fileInput": true,
+				"binaryFileInput": false,
+				"buttonFontSize": 0.3,
+				"displayIcon": false,
+				"fontAwesomeIcon": "",
+				"buttonFontFamily": "var(--widget-font-family)",
+				"buttonTextColor": "var(--widget-button-primary-text)",
+				"buttonDefaultColor": "var(--widget-button-primary-color)",
+				"buttonActiveColor": "var(--widget-button-active-color)",
+				"buttonHoverColor": "var(--widget-button-hover-color)",
+				"showWidget": true,
+				"enableWidget": true
+			},
+			"modelHiddenParams": {}
+		},
+		"annotationLabelA": {
+			"layout": {
+				"top": "4.535vh",
+				"left": "4.77374vw",
+				"height": "5.33333vh",
+				"width": "30.408vw",
+				"minHeight": "5px",
+				"minWidth": "5px",
+				"z-index": "2"
+			},
+			"container": {
+				"instanceId": "annotationLabelA",
+				"modelJsonId": "annotationLabel"
+			},
+			"modelParameters": {
+				"text": "Load the very-simple.csv file or other csv",
+				"enableActuator": false,
+				"fontsize": 0.5,
+				"backgroundColor": "rgba(0, 0, 0, 0)",
+				"textColor": "var(--widget-label-color)",
+				"valueFontFamily": "var(--widget-font-family)",
+				"textAlign": "left",
+				"textBold": false,
+				"textUnderline": false,
+				"textItalic": false,
+				"displayBorder": false,
+				"borderColor": "var(--widget-border-color)",
+				"borderWidth": "2px",
+				"centerVertically": true,
+				"showWidget": true,
+				"enableWidget": true
+			},
+			"modelHiddenParams": {}
+		},
+		"flatUiTableA": {
+			"layout": {
+				"top": "23.2vh",
+				"left": "4.77749vw",
+				"height": "38vh",
+				"width": "29.123vw",
+				"minHeight": "79px",
+				"minWidth": "88px",
+				"z-index": "3"
+			},
+			"container": {
+				"instanceId": "flatUiTableA",
+				"modelJsonId": "flatUiTable"
+			},
+			"modelParameters": {
+				"headerLine": true,
+				"indexColumn": false,
+				"tableValueFontSize": 0.5,
+				"striped": true,
+				"valueColor": "var(--widget-table-value-color)",
+				"valueFontFamily": "var(--widget-font-family)",
+				"valueAlign": "left",
+				"bordered": true,
+				"noBorder": false,
+				"backgroundColor": {
+					"primary": "var(--widget-color-0)",
+					"secondary": "var(--widget-table-striped-odd)"
+				},
+				"showIndex": false,
+				"editableCols": "[]",
+				"showWidget": true,
+				"enableWidget": true
+			},
+			"modelHiddenParams": {
+				"value": null,
+				"isDataFrame": false
+			}
+		}
+	},
+	"connections": {
+		"flatUiFileInputButtonA": {
+			"trigger1": {
+				"name": "trigger1",
+				"dataNode": "load_csv",
+				"dataFields": []
+			},
+			"file_path": {
+				"name": "file_path",
+				"dataNode": "csv_file_path",
+				"dataFields": []
+			}
+		},
+		"annotationLabelA": {},
+		"flatUiTableA": {
+			"value": {
+				"name": "value",
+				"dataNode": "df",
+				"dataFields": []
+			}
+		}
+	},
+	"exportOptions": "ajustToTargetWindow",
+	"pages": {
+		"pageNames": [],
+		"defaultPage": {}
+	},
+	"checkExportOptions": true,
+	"navBarNotification": false
+}

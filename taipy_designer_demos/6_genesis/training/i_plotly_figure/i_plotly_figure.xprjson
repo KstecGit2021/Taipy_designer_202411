@@ -1,0 +1,123 @@
+{
+	"meta": {
+		"version": "3.000.8887",
+		"fileFormatVersion": "0.3",
+		"date": "2024-06-09T11:29:52.915+02:00",
+		"name": "i_plotly_figure",
+		"description": "",
+		"groupName": "",
+		"tags": [],
+		"schedulerLogOff": true
+	},
+	"data": {
+		"datanodes": []
+	},
+	"libraries": {
+		"pyodideStandard": [],
+		"pyodideMicropip": []
+	},
+	"scaling": {
+		"widthPx": 1275,
+		"heightPx": 590,
+		"scrollWidthPx": 1275,
+		"scrollHeightPx": 590,
+		"widthVw": 83.44240837696336,
+		"heightVh": 78.66666666666667,
+		"scrollWidthVw": 83.44240837696336,
+		"scrollHeightVh": 78.66666666666667,
+		"scalingMethod": "scaleTwh",
+		"media": "large",
+		"colDims": null
+	},
+	"device": {
+		"cols": {
+			"valueRow": "none",
+			"valueCol": "1",
+			"maxCells": 0,
+			"maxCols": 0,
+			"classType": ""
+		},
+		"droppers": {},
+		"backgroundColor": "var(--widget-color-0)",
+		"inheritThemeBackgroundColor": true,
+		"theme": "default"
+	},
+	"dashboard": {
+		"plotlyPyGenericA": {
+			"layout": {
+				"top": "15.0733vh",
+				"left": "4.14922vw",
+				"height": "48.8vh",
+				"width": "38.3381vw",
+				"minHeight": "32px",
+				"minWidth": "50px",
+				"z-index": "1"
+			},
+			"container": {
+				"instanceId": "plotlyPyGenericA",
+				"modelJsonId": "plotlyPyGeneric"
+			},
+			"modelParameters": {
+				"enforceTextColor": true,
+				"textColor": "var(--widget-color)",
+				"enforceBackgroundTransparency": true,
+				"hideModeBar": false
+			},
+			"modelHiddenParams": {
+				"fig": {
+					"layout": {
+						"paper_bgcolor": "rgba(0,0,0,0)",
+						"plot_bgcolor": "rgba(0,0,0,0)",
+						"template": {
+							"layout": {
+								"xaxis": {
+									"gridcolor": "var(--widget-plotly-background-color)"
+								},
+								"yaxis": {
+									"gridcolor": "var(--widget-plotly-background-color)"
+								},
+								"zaxis": {
+									"gridcolor": "var(--widget-plotly-background-color)"
+								},
+								"colorway": [
+									"var(--widget-color-2)",
+									"var(--widget-color-5)",
+									"var(--widget-color-6)",
+									"var(--widget-color-7)",
+									"var(--widget-color-8)",
+									"var(--widget-color-9)",
+									"var(--widget-color-10)",
+									"var(--widget-color-11)",
+									"var(--widget-color-12)",
+									"var(--widget-color-13)"
+								],
+								"font": {
+									"color": "var(--widget-color)"
+								}
+							}
+						}
+					}
+				},
+				"selection": [
+					{}
+				]
+			}
+		}
+	},
+	"connections": {
+		"plotlyPyGenericA": {
+			"fig": {
+				"name": "fig",
+				"dataNode": "fig",
+				"dataFields": []
+			}
+		}
+	},
+	"exportOptions": "ajustToTargetWindow",
+	"pages": {
+		"pageNames": [],
+		"defaultPage": {}
+	},
+	"checkExportOptions": true,
+	"navBarNotification": false
+}

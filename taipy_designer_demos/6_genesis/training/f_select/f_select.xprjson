@@ -1,0 +1,157 @@
+{
+	"meta": {
+		"version": "3.000.8887",
+		"fileFormatVersion": "0.3",
+		"date": "2024-06-09T11:08:25.159+02:00",
+		"name": "f_select",
+		"description": "",
+		"groupName": "",
+		"tags": [],
+		"schedulerLogOff": true
+	},
+	"data": {
+		"datanodes": []
+	},
+	"libraries": {
+		"pyodideStandard": [],
+		"pyodideMicropip": []
+	},
+	"scaling": {
+		"widthPx": 1275,
+		"heightPx": 590,
+		"scrollWidthPx": 1275,
+		"scrollHeightPx": 590,
+		"widthVw": 83.44240837696336,
+		"heightVh": 78.66666666666667,
+		"scrollWidthVw": 83.44240837696336,
+		"scrollHeightVh": 78.66666666666667,
+		"scalingMethod": "scaleTwh",
+		"media": "large",
+		"colDims": null
+	},
+	"device": {
+		"cols": {
+			"valueRow": "none",
+			"valueCol": "1",
+			"maxCells": 0,
+			"maxCols": 0,
+			"classType": ""
+		},
+		"droppers": {},
+		"backgroundColor": "var(--widget-color-0)",
+		"inheritThemeBackgroundColor": true,
+		"theme": "default"
+	},
+	"dashboard": {
+		"flatUiSelectA": {
+			"layout": {
+				"top": "6.135vh",
+				"left": "3.15691vw",
+				"height": "5.06667vh",
+				"width": "18.6859vw",
+				"minHeight": "27px",
+				"minWidth": "40px",
+				"z-index": "1"
+			},
+			"container": {
+				"instanceId": "flatUiSelectA",
+				"modelJsonId": "flatUiSelect"
+			},
+			"modelParameters": {
+				"label": "select_fruit",
+				"inheritLabelFromData": true,
+				"displayLabel": true,
+				"labelFontSize": 0.5,
+				"labelColor": "var(--widget-label-color)",
+				"labelFontFamily": "var(--widget-font-family)",
+				"selectWidthProportion": "70%",
+				"isNumber": false,
+				"isBoolean": false,
+				"selectValueFontFamily": "var(--widget-font-family)",
+				"selectValueFontSize": 0.5,
+				"selectedValueColor": "var(--widget-select-option-highlighted-text)",
+				"selectedItemDefaultColor": "var(--widget-select-option-highlighted-color)",
+				"selectedItemHoverColor": "var(--widget-select-option-highlighted-color)",
+				"isKeyValuePairs": false
+			},
+			"modelHiddenParams": {
+				"keys": [],
+				"values": [],
+				"selectedValue": ""
+			}
+		},
+		"flatUiValueDisplayA": {
+			"layout": {
+				"top": "16.675vh",
+				"left": "3.15691vw",
+				"height": "5.06667vh",
+				"width": "34.2144vw",
+				"minHeight": "24px",
+				"minWidth": "150px",
+				"z-index": "2"
+			},
+			"container": {
+				"instanceId": "flatUiValueDisplayA",
+				"modelJsonId": "flatUiValueDisplay"
+			},
+			"modelParameters": {
+				"label": "message",
+				"inheritLabelFromData": true,
+				"displayLabel": true,
+				"labelFontSize": 0.5,
+				"labelColor": "var(--widget-label-color)",
+				"labelFontFamily": "var(--widget-font-family)",
+				"labelTextAlign": "left",
+				"valueWidthProportion": "70%",
+				"valueFontSize": 0.5,
+				"valueColor": "var(--widget-input-text)",
+				"valueFontFamily": "var(--widget-font-family)",
+				"valueTextAlign": "left",
+				"displayBorder": true,
+				"borderColor": "var(--widget-border-color)",
+				"backgroundColor": "var(--widget-input-color)",
+				"unit": "unitText",
+				"displayUnit": false,
+				"unitFontSize": 0.5,
+				"decimalDigits": 3,
+				"borderWidth": "2px"
+			},
+			"modelHiddenParams": {
+				"value": ""
+			}
+		}
+	},
+	"connections": {
+		"flatUiSelectA": {
+			"keys": {
+				"name": "keys",
+				"dataNode": "fruits",
+				"dataFields": []
+			},
+			"values": {
+				"name": "values",
+				"dataNode": "fruits",
+				"dataFields": []
+			},
+			"selectedValue": {
+				"name": "selectedValue",
+				"dataNode": "select_fruit",
+				"dataFields": []
+			}
+		},
+		"flatUiValueDisplayA": {
+			"value": {
+				"name": "value",
+				"dataNode": "message",
+				"dataFields": []
+			}
+		}
+	},
+	"exportOptions": "ajustToTargetWindow",
+	"pages": {
+		"pageNames": [],
+		"defaultPage": {}
+	},
+	"checkExportOptions": true,
+	"navBarNotification": false
+}
